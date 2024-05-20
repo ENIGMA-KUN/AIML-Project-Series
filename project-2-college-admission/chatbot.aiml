@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+  <!-- Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I'm the College Admission QnA Bot. How can I assist you today?</template>
+  </category>
+
+  <!-- Farewell -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      Goodbye! Thank you for using the College Admission QnA Bot. Feel free to come back if you have more questions!
+    </template>
+  </category>
+
+  <!-- Admission Requirements -->
+  <category>
+    <pattern>WHAT ARE THE ADMISSION REQUIREMENTS</pattern>
+    <template>
+      The admission requirements vary depending on the program and college. Generally, you need to submit your high school transcripts, standardized test scores (e.g., SAT or ACT), and a personal statement. Some programs may also require letters of recommendation and additional essays.
+    </template>
+  </category>
+
+  <!-- Application Deadlines -->
+  <category>
+    <pattern>WHEN ARE THE APPLICATION DEADLINES</pattern>
+    <template>
+      Application deadlines can vary by college and program. Most colleges have regular decision deadlines in January or February, while early action or early decision deadlines are typically in November or December. It's best to check the specific deadlines for the colleges you're interested in on their official websites.
+    </template>
+  </category>
+
+  <!-- Majors Offered -->
+  <category>
+    <pattern>WHAT MAJORS ARE OFFERED</pattern>
+    <template>
+      <get name="username"/>, the available majors depend on the specific college you're interested in. Some common majors include Computer Science, Engineering, Business, Psychology, and Biology. What college are you considering?
+    </template>
+  </category>
+
+  <!-- Setting User's Name -->
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+      Nice to meet you, <set name="username"><star/></set>! How can I help you with your college admission questions?
+    </template>
+  </category>
+
+  <!-- Unknown Queries -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>I apologize, but I don't have enough information to answer that question. Could you please rephrase or provide more details?</li>
+        <li>I'm sorry, but I'm not sure how to respond to that. Let me know if you have any other admission-related questions.</li>
+        <li>I don't have a specific answer for that. You may find more information on the college's official website or by contacting the admission office directly.</li>
+      </random>
+    </template>
+  </category>
+</aiml>
