@@ -41,7 +41,8 @@ This is a simple chatbot implementation using AIML (Artificial Intelligence Mark
 
 Here's a screenshot of a sample interaction with the chatbot:
 
-![Chatbot Interaction](project-1-simple-chatbot\Screenshot\Result.png)
+
+![Chatbot Interaction](project-1-simple-chatbot/Screenshot/Result.png)
 
 ## Future Enhancements
 
@@ -69,7 +70,7 @@ This is a chatbot designed to answer questions related to college admission. It 
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/college-admission-chatbot.git
+1. Clone the repository: git clone https://github.com/ENIGMA-KUN/AIML-Project-Series
 
 2. Install the required dependencies: pip install aiml
  
@@ -92,7 +93,7 @@ This is a chatbot designed to answer questions related to college admission. It 
 - Improved natural language understanding and context handling
 - Multilingual support for a wider audience
 
-![Chatbot Interaction](project-1-simple-chatbot\Screenshot\Result.png)
+![Chatbot Interaction](project-1-simple-chatbot/Screenshot/Result.png)
 
 ## Backend Django
 # College Admission Chatbot
@@ -162,8 +163,9 @@ Here are some example commands and queries you can use:
 - "How can I apply for admission?"
 - "What documents do I need to submit?"
 
-![Chatbot Interaction]('project-2-college-admission\Screensot\Connection Backend - Django.png')
-![Chatbot Interaction]('project-2-college-admission\Screensot\Succesfull Django Deploy.png')
+![Chatbot Interaction](project-2-college-admission/Screensot/BackendConnection.png)
+
+![Chatbot Interaction](project-2-college-admission/Screensot/DjangoUI.png)
 
 ## Contributing
 
