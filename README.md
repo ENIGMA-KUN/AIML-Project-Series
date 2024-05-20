@@ -70,7 +70,7 @@ This is a chatbot designed to answer questions related to college admission. It 
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/college-admission-chatbot.git
+1. Clone the repository: git clone https://github.com/ENIGMA-KUN/AIML-Project-Series
 
 2. Install the required dependencies: pip install aiml
  
@@ -163,8 +163,9 @@ Here are some example commands and queries you can use:
 - "How can I apply for admission?"
 - "What documents do I need to submit?"
 
-![Chatbot Interaction]('project-2-college-admission/Screensot/Connection Backend - Django.png')
-![Chatbot Interaction]('project-2-college-admission/Screensot/Succesfull Django Deploy.png')
+![Chatbot Interaction](project-2-college-admission/Screensot/Connection Backend - Django.png)
+
+![Chatbot Interaction](project-2-college-admission/Screensot/Succesfull Django Deploy.png)
 
 ## Contributing
 
