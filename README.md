@@ -163,9 +163,9 @@ Here are some example commands and queries you can use:
 - "How can I apply for admission?"
 - "What documents do I need to submit?"
 
-![Chatbot Interaction](project-2-college-admission/Screensot/Connection Backend - Django.png)
+![Chatbot Interaction](project-2-college-admission/Screensot/BackendConnection.png)
 
-![Chatbot Interaction](project-2-college-admission/Screensot/Succesfull Django Deploy.png)
+![Chatbot Interaction](project-2-college-admission/Screensot/DjangoUI.png)
 
 ## Contributing
 
