@@ -43,6 +43,8 @@ Here's a screenshot of a sample interaction with the chatbot:
 
 ![Chatbot Interaction](project-1-simple-chatbot\Screenshot\Result.png)
 
+![Chatbot Interaction](project-1-simple-chatbot/Screenshot/Result.png)
+
 ## Future Enhancements
 
 In the next part of the project, we will focus on enhancing the chatbot with the following features:
